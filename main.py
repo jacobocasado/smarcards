@@ -144,8 +144,8 @@ if __name__ == '__main__':
 
     sk, sk1, sk2 = generate_session_key(nt_plus_1, nt_plus_2, ak_hex, rn)
 
-    command = "040600000D"
-    data = '7766554433221100'
+    command = "04D600000B"
+    data = 'EECCAA8866442200'
 
     all = command + data
 
